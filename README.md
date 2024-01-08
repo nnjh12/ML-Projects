@@ -2,11 +2,11 @@
 ML Projects based on CIS662 homework
 
 ## HW2 (Principal Components Analysis)
-We address 3 different prediction problems using ML:
+> We address 3 different prediction problems using ML:
 * Predicting 2022 citation numbers using the university rank and 2017-2021 citation numbers.
 * Predicting the h-index using the university rank and all (2017-2022) citation numbers.
 * Predicting the i10-index using the university rank and all (2017-2022) citation numbers.
-Use Principal Components Analysis on the data set.
+> Use Principal Components Analysis on the data set.
 
 ## HW3 (Nearest neighbor)
 Predict 2022 citations based on all the 2017-2021 citations. Use an appropriate distance measure to determine nearest neighbors, and to group individuals in the training set, based on all the 2017-2021 citation columns in the data set.
