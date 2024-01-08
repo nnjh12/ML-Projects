@@ -40,9 +40,7 @@ The inputs to the network would be the citation numbers from 2017 to 2022, norma
 ### Part-2:
 > Introduce 5 new features based on the citation numbers. Use them in the RF instead of the citation numbers directly.  
 > Each new feature is:
-```
-((cita7on number in year n+1)-(cita7on number in year n))/(cita7on number in year n) for 2016<n<2022.
-```
+> ((cita7on number in year n+1)-(cita7on number in year n))/(cita7on number in year n) for 2016<n<2022.
 
 ## HW8 (Adaboost)
 Adaboost for the same classification problem as HW5.
