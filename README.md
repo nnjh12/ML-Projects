@@ -3,7 +3,7 @@ ML Projects based on CIS662 coursework at Syracuse University.
 
 ## Project1: Principal Components Analysis
 ### Problem
-We address 3 different prediction problems using ML:
+Address 3 different prediction problems using ML:
 
 * Predicting 2022 citation numbers using the university rank and 2017-2021 citation numbers.
 * Predicting the h-index using the university rank and all (2017-2022) citation numbers.
