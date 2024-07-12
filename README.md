@@ -2,6 +2,7 @@
 ML Projects based on CIS662 coursework at Syracuse University.
 
 ## Project1: Principal Components Analysis
+### Problem
 We address 3 different prediction problems using ML:
 
 * Predicting 2022 citation numbers using the university rank and 2017-2021 citation numbers.
@@ -11,6 +12,7 @@ We address 3 different prediction problems using ML:
 Use Principal Components Analysis on the data set.
 
 ## Project2: Nearest neighbor
+### Problem
 Predict 2022 citations based on all the 2017-2021 citations. Use an appropriate distance measure to determine the nearest neighbors.  
 What is the right number of clusters for this problem? Why?  
 Tabulate the following predictions for the 2022 citation numbers for the test set:
@@ -19,31 +21,37 @@ Tabulate the following predictions for the 2022 citation numbers for the test se
 * average of all others from the training set in the same cluster.
 
 ## Project3: Neural network
+### Problem
 Predict 2022 citations based on all the 2017-2021 citations. Try a 1-hidden layer neural network (5-3-1 architecture) using the backpropagation algorithm.  
 Play with different values of the learning rate to see what works best for this problem.
 
 ## Project4: Classification using NN
+### Problem
 Classification problem using a 1-hidden layer 6-6-3 neural network.  
-Based on the ratio (citations in 2022)/(citations in 2021), approximated to two decimal places, determine the category of each individual as one of the three shown below:
+Based on the ratio `(citations in 2022)/(citations in 2021)`, approximated to two decimal places, determine the category of each individual as one of the three shown below:
 * Low (<1.05).
 * Medium (1.06-1.15).
 * High (>1.15).
+
 The inputs to the network would be the citation numbers from 2017 to 2022, normalized as you consider appropriate.
 
 ## Project5: Linear regression and Logistic regression
-### Part-1:
-> Linear regression: Fit a line to go very near the 2017-2021 citation columns, minimizing MSE. Use that line to predict the 2022 citation numbers.  
-### Part-2:
-> Logistic regression: Classify individuals into 3 categories, as in project4.
+### Problem
+#### Part-1:
+Linear regression: Fit a line to go very near the 2017-2021 citation columns, minimizing MSE. Use that line to predict the 2022 citation numbers.  
+#### Part-2:
+Logistic regression: Classify individuals into 3 categories, as in project4.
 
 ## Project6: Random forest
-### Part-1:
-> Random forest approach for the same classification problem as in project4. (It probably won't perform well; say why.)
-### Part-2:
-> Introduce 5 new features based on the citation numbers. Use them in the RF instead of the citation numbers directly.  
-> Each new feature is:
-> ((cita7on number in year n+1)-(cita7on number in year n))/(cita7on number in year n) for 2016<n<2022.
+### Problem
+#### Part-1:
+Random forest approach for the same classification problem as in project4. (It probably won't perform well; say why.)
+#### Part-2:
+Introduce 5 new features based on the citation numbers. Use them in the RF instead of the citation numbers directly.  
+Each new feature is:
+> ((citation number in year n+1)-(citation number in year n))/(citation number in year n) for 2016<n<2022.
 
 ## Project7: Adaboost
+### Problem
 Adaboost for the same classification problem as in project4.
 
