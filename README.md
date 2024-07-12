@@ -34,16 +34,16 @@ The inputs to the network would be the citation numbers from 2017 to 2022, norma
 ### Part-1:
 > Linear regression: Fit a line to go very near the 2017-2021 citation columns, minimizing MSE. Use that line to predict the 2022 citation numbers.  
 ### Part-2:
-> Logistic regression: Classify individuals into 3 categories, as in HW5.
+> Logistic regression: Classify individuals into 3 categories, as in project4.
 
 ## Project6: Random forest
 ### Part-1:
-> Random forest approach for the same classification problem as HW5. (It probably won't perform well; say why.)
+> Random forest approach for the same classification problem as in project4. (It probably won't perform well; say why.)
 ### Part-2:
 > Introduce 5 new features based on the citation numbers. Use them in the RF instead of the citation numbers directly.  
 > Each new feature is:
 > ((cita7on number in year n+1)-(cita7on number in year n))/(cita7on number in year n) for 2016<n<2022.
 
 ## Project7: Adaboost
-Adaboost for the same classification problem as HW5.
+Adaboost for the same classification problem as in project4.
 
