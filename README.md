@@ -10,7 +10,7 @@ Addressed three different prediction problems using ML:
 
 Used Principal Component Analysis (PCA) on the dataset.
 
-#### Results
+<b>[Results](./project1_PCA/report.pdf)</b><br />
 The first principal component(PC1) effectively predicted the 2022 citation numbers/h-index/i10-index, while the second principal component(PC2) did not contribute significantly to the prediction. The values associated with the PC2 were scattered and showed mixed results in relation to the predictions.
 
 ## Project2: Nearest neighbor
@@ -21,7 +21,7 @@ Used the following predictions for the 2022 citation numbers for the test set:
 1) The same as the point nearest the cluster centroid.
 1) The average of all others from the training set in the same cluster.
 
-#### Results
+<b>[Results](./project2_NearestNeighbor/report.pdf)</b><br />
 > Prediction1: loss: 866.80<br />
 > Prediction2: loss: 961.10<br />
 > Prediction3: loss: 940.43
@@ -39,7 +39,7 @@ Various values of the learning rate were experimented with to determine the most
 * Optimizer: adam with learning rate 0.1
 * Evaluate metrics: Loss
 
-#### Results
+<b>[Results](./project3_NeuralNetwork/report.pdf)</b><br />
 > Test results: loss: 99.12
 
 I found that the neural network (NN) significantly outperformed the other three predictions from Project2. In this experiment, using a learning rate of 0.1, the NN achieved a loss (mean of absolute errors) of 99.12. In comparison, the previous losses were much higher at 866.80, 961.10, and 940.43.
@@ -62,7 +62,7 @@ The inputs to the network were the citation numbers from 2017 to 2022, appropria
 * Optimizer: adam with learning rate 0.01
 * Evaluate metrics: Loss and Accuracy
 
-#### Results
+<b>[Results](./project4_ClassificationNN/report.pdf)</b><br />
 > Training results: loss: 0.3850, accuracy: 0.8625 (Upon reaching the 200th epoch)<br />
 > Test results: loss: 0.7344, accuracy: 0.7500
 
@@ -70,7 +70,7 @@ The inputs to the network were the citation numbers from 2017 to 2022, appropria
 ### Part-1:
 Linear regression: Fitted a line to closely approximate the 2017-2021 citation columns, minimizing Mean Squared Error (MSE). This line was then used to predict the 2022 citation numbers.
 
-#### Results
+<b>[Results](./project5_LinearRegressionLogisticRegression/report.pdf)</b><br />
 > Mean Square Error: 22,318
 
 The linear regression (LR) model has a mean square error of 22,318. It's surprisingly effective despite its simplicity, delivering consistently strong performance.
@@ -78,7 +78,7 @@ The linear regression (LR) model has a mean square error of 22,318. It's surpris
 ### Part-2:
 Logistic regression: Individuals were classified into 3 categories, as in project.
 
-#### Results
+<b>[Results](./project5_LinearRegressionLogisticRegression/report.pdf)</b><br />
 > Accuracy: 1.0
 
 The logistic regression model achieves a remarkable 100% accuracy when classifying the test set, which is impressive given its simplicity.
@@ -89,7 +89,7 @@ Five new features were used in the random forest model instead of the citation n
 Each new feature is:
 `((citation number in year n+1)-(citation number in year n))/(citation number in year n)` for 2016<n<2022.
 
-#### Results
+<b>[Results](./project6_RandomForest/report.pdf)</b><br />
 > Training Score: 1.0<br />
 > Test Score: 1.0
 
@@ -98,7 +98,7 @@ The random forest model using new features achieved perfect accuracy.
 ## Project7: Adaboost
 Adaboost was employed for the same classification problem as in project6.
 
-#### Results
+<b>[Results](./project7_Adaboost/report.pdf)</b><br />
 > Training Score: 1.0<br />
 > Test Score: 1.0
 
