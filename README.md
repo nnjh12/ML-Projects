@@ -1,5 +1,6 @@
 # ML-Projects
-ML Projects based on CIS662 coursework at Syracuse University.
+Worked on prediction and classification problems using datasets that included university rankings, citation numbers from 2017-2022, h-index, and i10-index.
+These projects were part of CIS662 coursework at Syracuse University.
 
 ## Project1: Principal Components Analysis
 Addressed three different prediction problems using ML:
